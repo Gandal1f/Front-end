@@ -72,12 +72,19 @@ h1 {
     text-align: center;
 }
 
+.card-flex-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
 .card {
     border: 2px solid #E7E7E7;
     border-radius: 5px;
     background-color: #FFFFFF;
     padding: 40px 20px;
     width: 370px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -99,8 +106,10 @@ h1 {
     font-weight: 400;    
 }
 
-footer {
-    padding: 20px;
+footer ul {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
